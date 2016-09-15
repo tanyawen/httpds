@@ -1,0 +1,25 @@
+{
+    "name": "swoolers/httpds",
+    "description": "tanyawen test.",
+    "keywords": ["framework", "httpd", "httpds"],
+    "homepage": "http://github.com/nrk/predis",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tan Yawen",
+            "email": "mail@httpds.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "swooler/framework": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
